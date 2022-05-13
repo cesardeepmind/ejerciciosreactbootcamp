@@ -1,14 +1,16 @@
-export class Contacto {
-    Nombre= String;
-    Apellido = String;
-    Email = String;
-    Conectado = false;
+import { LEVELS } from "./conect";
 
-    constructor(Nombre, Apellido, Email, Conectado){
-        this.Nombre = Nombre;
-        this.Apellido = Apellido;
-        this.Email = Email;
-        this.Conectado = Conectado
+export class Contacto {
+    name= String;
+    email = String;
+    conectado = false;
+    level = LEVELS.Desconectado
+
+    constructor(name, email, conectado, level){
+        this.name = name;
+        this.email = email;
+        this.conectado = conectado;
+        this.level = level;
     }
 
 }
