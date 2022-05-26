@@ -1,12 +1,12 @@
 
 import './App.css';
-import ContactListComponent from './components/Contacto/Container/contact_list';
+import { ButtonColor } from './components/ButtonColors/ButtonColor';
 
 
 function App() {
   return (
     <div className="App">
-      <ContactListComponent />
+      <ButtonColor />
     </div>
   );
 }

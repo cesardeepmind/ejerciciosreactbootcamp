@@ -1,0 +1,12 @@
+.container,
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 255px;
+  height: 255px;
+  background-color: black;
+}
