@@ -1,12 +1,12 @@
 
 import './App.css';
-import { ButtonColor } from './components/ButtonColors/ButtonColor';
 
+import Axios from './components/Chuck Norris/Axios';
 
 function App() {
   return (
     <div className="App">
-      <ButtonColor />
+      <Axios />
     </div>
   );
 }
